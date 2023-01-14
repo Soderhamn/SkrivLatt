@@ -15,7 +15,7 @@
 		<ApplicationTitle>SkrivLätt</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.apparant.skrivlätt</ApplicationId>
+		<ApplicationId>com.marcus.skrivlätt</ApplicationId>
 		<ApplicationIdGuid>8F1F86AB-5766-4F0B-86C3-B8802005AF57</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -61,6 +61,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="AboutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="SettingsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -5,7 +5,7 @@
              Title="SkrivLätt">
 
     <Grid
-            RowDefinitions="*, 100, 30"
+            RowDefinitions="*, 200, 30"
             ColumnDefinitions="*"
             Padding="10"
             BackgroundColor="Orange">
@@ -13,32 +13,45 @@
         <Editor x:Name="inpTxt"
                    Grid.Row="0"
                    TextChanged="OnTextChanged"
-                   Completed="OnTextCompleted"
                    IsTextPredictionEnabled="true"
-                   FontFamily="OpenDyslexic-Regular"
-                   FontSize="20"
+                   FontSize="16"
                    TextColor="DarkBlue"
-                   BackgroundColor="PaleGoldenrod"/>
+                   BackgroundColor="PaleGoldenrod"
+                   HeightRequest="200"
+                   />
 
-        <FlexLayout
+        <StackLayout
             Grid.Row="1"
-            AlignItems="Center"
-            JustifyContent="SpaceEvenly">
+            Margin="16"
+            Spacing="16">
             <Button x:Name="btnReadAll"
                     Text="&#x25B6; Läs upp text"
                     BackgroundColor="Green"
+                    BorderColor="Black"
+                    BorderWidth="2"
                     TextColor="White"
+                    Clicked="OnReadAllClicked"
                     />
-            <Button x:Name="btnSaveText"
-                    Text="&#x1F4BE; Spara text" />
-            <Button x:Name="btnSettings"
-                    Text="Inställningar" 
-                    
-                     />
-        </FlexLayout>
+            <Button x:Name="btnCopyText"
+                    Text="Kopiera text"
+                    BorderColor="Black"
+                    TextColor="Black"
+                    BorderWidth="2"
+                    Clicked="OnCopyTextClicked"
+                    />
+
+            <Button x:Name="btnPasteText"
+                    Text="Klistra in text"
+                    BorderColor="Black"
+                    TextColor="Black"
+                    BorderWidth="2"
+                    Clicked="OnPasteTextClicked"
+                    />
+
+        </StackLayout>
 
         <Label x:Name="lblFooter"
-                   Text="Copyright &#x00A9; 2023, Apparant development AB"
+                   Text="Copyright &#x00A9; 2023, Marcus Andersson"
                     Grid.Row="2"
                    BackgroundColor="Orange"
                    HorizontalTextAlignment="Center"

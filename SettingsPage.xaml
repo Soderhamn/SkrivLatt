@@ -2,11 +2,31 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SkrivLätt.SettingsPage"
-             Title="SettingsPage">
-    <VerticalStackLayout>
+             Title="Inställningar">
+	<VerticalStackLayout Padding="10"
+						 >
         <Label 
-            Text="Settings"
+            Text="Inställningar"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+			
+			/>
+		<Picker Title="Typsnitt"
+				x:Name="fontPicker"
+				SelectedIndexChanged="OnPickerSelectedIndexChanged">
+			<Picker.ItemsSource>
+				<x:Array Type="{x:Type x:String}">
+					<x:String>OpenDyslexicRegular</x:String>
+					<x:String>LibraSans</x:String>
+					<x:String>LibraSerifModernRegular</x:String>
+				</x:Array>
+			</Picker.ItemsSource>
+			
+		</Picker>
+		<Label Text="" x:Name="lblFontStatus" />
+
+		<Slider>
+			
+		</Slider>
     </VerticalStackLayout>
 </ContentPage>

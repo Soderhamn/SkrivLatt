@@ -278,6 +278,14 @@ C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLät
 C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-Bold.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-BoldItalic.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-Italic.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Bold.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-BoldItalic.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Italic.otf
+C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Regular.otf
 C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Bold.otf
 C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-BoldItalic.otf
 C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Italic.otf

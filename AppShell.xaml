@@ -6,14 +6,23 @@
     xmlns:local="clr-namespace:SkrivLätt"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="SkrivLätt"
+    <TabBar>
+        <ShellContent
+        Title="Skriv"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
-    <ShellContent 
+        <ShellContent
         Title="Inställningar"
         ContentTemplate="{DataTemplate local:SettingsPage}"
-        Route="SettingsPage"/>
+        Route="SettingsPage" />
 
+
+        <ShellContent
+        Title="Om"
+        ContentTemplate="{DataTemplate local:AboutPage}"
+        Route="AboutPage" />
+
+    </TabBar>
+    
 </Shell>

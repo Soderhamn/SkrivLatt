@@ -9,6 +9,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SkrivLätt
 build_property.ProjectDir = C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\
 
+[C:/Users/marcu/Documents/MIUN/HT22/DT071G - Programmering i C\#/Projekt/SkrivLätt/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkrivLätt.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
 [C:/Users/marcu/Documents/MIUN/HT22/DT071G - Programmering i C\#/Projekt/SkrivLätt/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SkrivLätt.App.xaml
