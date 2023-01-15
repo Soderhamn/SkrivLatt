@@ -4,15 +4,24 @@
              x:Class="SkrivLätt.AboutPage"
              Title="Om appen">
     <VerticalStackLayout
-        BackgroundColor="Orange">
+        BackgroundColor="Orange"
+        Padding="20">
         <Label 
             Text="Om SkrivLätt:"
+            FontSize="32"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Label 
+            Text="Den här appen skapades av Marcus Andersson som ett projekt i kurs DT071G - Programmering i C# .NET, under tiden på webbutvecklingsprogrammet på MIUN."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="10"/>
+
+        <Label 
             Text="Copyright 2023, Marcus Andersson"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>

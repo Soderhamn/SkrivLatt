@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using Microsoft.Maui.Graphics.Converters;
+using System.Text.RegularExpressions;
 
 namespace SkrivLätt;
 
@@ -12,16 +13,6 @@ public partial class MainPage : ContentPage
     public MainPage()
 	{
 		InitializeComponent();
-
-        if (Preferences.Default.ContainsKey("fontFamily"))
-        {
-            string fontFamily = Preferences.Default.Get("fontFamily", "OpenDyslexic-Regular");
-            inpTxt.FontFamily = fontFamily;
-        }
-        else
-        {
-            inpTxt.FontFamily = "OpenDyslexic-Regular";
-        }
 
     }
 
@@ -146,7 +137,33 @@ public partial class MainPage : ContentPage
         btnPasteText.Background = Colors.White;
     }
 
-    
+    //När denna Sida visas så körs OnAppearing() och läser in valda inställningar, eller standardinställningar om inget valts.
+    protected async override void OnAppearing()
+    {
+        if (Preferences.Default.ContainsKey("fontFamily") || Preferences.Default.ContainsKey("editorTextColor") || Preferences.Default.ContainsKey("editorBackgroundColor"))
+        {
+            string fontFamily = Preferences.Default.Get("fontFamily", "OpenDyslexic-Regular"); //Ladda in sparat typsnitt, om inget finns välj OpenDyslexic-Regular
+            string strFontColor = Preferences.Default.Get("editorTextColor", "DarkBlue");
+            string strBackgroundColor = Preferences.Default.Get("editorBackgroundColor", "PaleGoldenrod");
+
+            //Hittade hur man konverterar string till färger här: https://stackoverflow.com/questions/72902119/net-maui-is-it-possible-to-convert-a-string-to-a-color-inside-a-binding 
+            ColorTypeConverter converter = new ColorTypeConverter();
+            Color fontColor = (Color)(converter.ConvertFromInvariantString(strFontColor));
+            Color backgroundColor = (Color)(converter.ConvertFromInvariantString(strBackgroundColor));
+
+
+            inpTxt.FontFamily = fontFamily;
+            inpTxt.TextColor = fontColor;
+            inpTxt.BackgroundColor = backgroundColor;
+
+            await DisplayAlert("Font", "Font finns: " + fontFamily + " EditorTextColor: " + strFontColor + " Backgroundcolor: " + strBackgroundColor, "OK");
+        }
+        else
+        {
+            inpTxt.FontFamily = "OpenDyslexic-Regular";
+            //await DisplayAlert("Font", "Font finns INTE: ", "OK");
+        }
+    }
 
 
 }

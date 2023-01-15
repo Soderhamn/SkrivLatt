@@ -1,1 +1,0 @@
-C:\Users\marcu\Documents\MIUN\HT22\DT071G - Programmering i C#\Projekt\SkrivLätt\SkrivLätt.csproj;x64

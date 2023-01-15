@@ -17,7 +17,7 @@
                    FontSize="16"
                    TextColor="DarkBlue"
                    BackgroundColor="PaleGoldenrod"
-                   HeightRequest="200"
+                   AutoSize="TextChanges"
                    />
 
         <StackLayout
