@@ -5,10 +5,7 @@ namespace SkrivLätt;
 
 public partial class MainPage : ContentPage
 {
-
     public int CursorPosition { get; set; }
-
-    
 
     public MainPage()
 	{
@@ -16,15 +13,16 @@ public partial class MainPage : ContentPage
 
     }
 
-    CancellationTokenSource cts;
+    CancellationTokenSource cts; //För att kunna avbryta uppläsning
 
+    //Funktion för att läsa upp texten
 	public async void ReadText(string txt)
 	{
         if(txt != null && txt.Length > 0) //txt får inte vara null eller tom sträng, då kraschar appen
         {
             CancelSpeech(); //Cancel på tidigare uppläst text
 
-            SpeechOptions options = new SpeechOptions()
+            SpeechOptions options = new SpeechOptions() //Inställningar för uppläsningen
             {
                 Pitch = 1.2f,   // 0.0 - 2.0
                 Volume = 0.75f, // 0.0 - 1.0
@@ -49,44 +47,49 @@ public partial class MainPage : ContentPage
     //OnTextChanged körs när texten i Editorn ändrats
     public void OnTextChanged(object sender, TextChangedEventArgs e)
 	{
-		string oldText = e.OldTextValue;
+		//string oldText = e.OldTextValue;
 		string newText = e.NewTextValue;
 		string allText = inpTxt.Text;
 
-        if(newText.Length > 0) //Annars kraschar programmet om newtext är tom
+        if(newText.Length > 0) //Kör bara om strängen har innehåll, annars kraschar programmet om newtext är tom
         {
-            string lastLetter = "";
+            string lastLetter;
             try
             {
-                lastLetter = newText[inpTxt.CursorPosition - 1].ToString(); //Sista bokstaven, cursorposition fungerar inte vid inklistring
+                //Hitta sista bokstaven, detta fungerar dock inte vid inklistring (ctrl+v)
+                lastLetter = newText[inpTxt.CursorPosition - 1].ToString(); 
             }
             catch
             {
+                //Hitta sista bokstaven om sättet ovan misslyckats, exempelvis vid inklistring av text
                 lastLetter = newText[newText.Length - 1].ToString();
             }
 
+            /* //Bygga vidare på i framtiden: Läs upp senaste meningen vid ./!/?
             bool isSeparator = false;
             string regexPattern = @"[\?|\.|\!]";
             foreach(Match m in Regex.Matches(lastLetter, regexPattern))
             {
                 isSeparator = true; 
             }
+            */
 
-            if (lastLetter == " ")
+            if (lastLetter == " ") //Om användaren skrivit in mellanslag
             {
                 //Slpitta strängen på mellanslag
                 string[] stringArr = allText.Split(' ');
-                string lastWord = stringArr[stringArr.Length - 2]; //Sista ordet
+                string lastWord = stringArr[stringArr.Length - 2]; //Plocka ut sista ordet
 
                 ReadText(lastWord);
             }
-            else if(isSeparator == true) //Det är någon av: .!?
+            //Utveckla i framtiden för att läsa ut senaste meningen
+            /*else if(isSeparator == true) //Det är någon av: .!?
             {
                 string[] stringArr = Regex.Split(allText, regexPattern);
                 string lastSentence = stringArr[stringArr.Length - 1];
 
                 ReadText(lastSentence);
-            }
+            }*/
             else //Om inte .!? eller mellanslag, läs upp senaste bokstaven
             {
                 ReadText(lastLetter);
@@ -94,7 +97,7 @@ public partial class MainPage : ContentPage
         }
     }
 
-
+    //Om användaren klickat på "läs upp all text"
     public async void OnReadAllClicked(object sender, EventArgs e)
     {
         ReadText(inpTxt.Text);
@@ -108,6 +111,7 @@ public partial class MainPage : ContentPage
 
     }
 
+    //Om användaren klickat på kopiera text
     public async void OnCopyTextClicked(object sender, EventArgs e)
     {
         await Clipboard.Default.SetTextAsync(inpTxt.Text);
@@ -122,6 +126,7 @@ public partial class MainPage : ContentPage
         btnCopyText.Background = Colors.White;
     }
 
+    //Klistra in text-knappen
     public async void OnPasteTextClicked(object sender, EventArgs e)
     {
         inpTxt.Text += await Clipboard.Default.GetTextAsync();
@@ -137,8 +142,9 @@ public partial class MainPage : ContentPage
         btnPasteText.Background = Colors.White;
     }
 
-    //När denna Sida visas så körs OnAppearing() och läser in valda inställningar, eller standardinställningar om inget valts.
-    protected async override void OnAppearing()
+    //När denna Sida (MainPage) visas så körs OnAppearing()
+    //Läser in valda inställningar, eller standardinställningar om inget valts.
+    protected override void OnAppearing()
     {
         if (Preferences.Default.ContainsKey("fontFamily") || Preferences.Default.ContainsKey("editorTextColor") || Preferences.Default.ContainsKey("editorBackgroundColor"))
         {
@@ -156,7 +162,8 @@ public partial class MainPage : ContentPage
             inpTxt.TextColor = fontColor;
             inpTxt.BackgroundColor = backgroundColor;
 
-            await DisplayAlert("Font", "Font finns: " + fontFamily + " EditorTextColor: " + strFontColor + " Backgroundcolor: " + strBackgroundColor, "OK");
+            //Felsökning:
+            //await DisplayAlert("Font", "Font finns: " + fontFamily + " EditorTextColor: " + strFontColor + " Backgroundcolor: " + strBackgroundColor, "OK");
         }
         else
         {

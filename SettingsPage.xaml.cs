@@ -19,7 +19,7 @@ public partial class SettingsPage : ContentPage
 
 			Preferences.Default.Set("fontFamily", fontToSave); //Spara inställningen 
 
-			lblFontStatus.Text = "Teckensnitt uppdaterat till: " + fontToSave;
+			lblUpdateStatus.Text = "Teckensnitt uppdaterat till: " + fontToSave;
         }
 	}
 
@@ -34,7 +34,7 @@ public partial class SettingsPage : ContentPage
 
             Preferences.Default.Set("editorTextColor", fontColorToSave); //Spara inställningen 
 
-            lblFontStatus.Text = "Teckensnittsfärg uppdaterad till: " + fontColorToSave;
+            lblUpdateStatus.Text = "Teckensnittsfärg uppdaterad till: " + fontColorToSave;
         }
     }
 
@@ -49,20 +49,18 @@ public partial class SettingsPage : ContentPage
 
             Preferences.Default.Set("editorBackgroundColor", backgroundColorToSave); //Spara inställningen 
 
-            lblFontStatus.Text = "Bakgrundsfärg uppdaterad till: " + backgroundColorToSave;
+            lblUpdateStatus.Text = "Bakgrundsfärg uppdaterad till: " + backgroundColorToSave;
         }
     }
 
-    public bool OnResetSettings()
-	{
+    public void OnResetSettings(object sender, EventArgs e)
+    {
         //Ställ in standardinställningarna
         Preferences.Default.Set("fontFamily", "OpenDyslexic-Regular"); //Typsnitt
         Preferences.Default.Set("editorTextColor", "DarkBlue"); //Teckenfärg
         Preferences.Default.Set("editorBackgroundColor", "PaleGoldenrod"); //Bakgrundsfärg
 
-        lblResetStatus.Text = "Inställningarna återställdes til standardinställningar";
-
-		return true;
+        lblUpdateStatus.Text = "Inställningarna återställdes til standardinställningar";
     }
 
 }

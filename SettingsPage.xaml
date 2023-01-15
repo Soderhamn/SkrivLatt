@@ -11,7 +11,9 @@
 				x:Name="fontPicker"
 				SelectedIndexChanged="OnFontPickerSelectedIndexChanged"
                 HorizontalOptions="Center"
-                VerticalOptions="Center">
+                VerticalOptions="Center"
+                TextColor="White"
+                TitleColor="White">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>OpenDyslexicRegular</x:String>
@@ -20,14 +22,15 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Label Text="" TextColor="Green" x:Name="lblFontStatus" />
 
         <!-- Textfärg -->
         <Picker Title="Textfärg"
 				x:Name="fontColorPicker"
 				SelectedIndexChanged="OnFontColorPickerSelectedIndexChanged"
                 HorizontalOptions="Center"
-                VerticalOptions="Center">
+                VerticalOptions="Center"
+                 TextColor="White"
+                TitleColor="White">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>DarkBlue</x:String>
@@ -36,14 +39,15 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Label Text="" TextColor="Green" x:Name="lblFontColorStatus" />
 
         <!-- Bakgrundsfärg -->
-        <Picker Title="Typsnitt"
+        <Picker Title="Bakgrundsfärg"
 				x:Name="backgroundColorPicker"
 				SelectedIndexChanged="OnBackgroundColorPickerSelectedIndexChanged"
                 HorizontalOptions="Center"
-                VerticalOptions="Center">
+                VerticalOptions="Center"
+                 TextColor="White"
+                TitleColor="White">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>PaleGoldenrod</x:String>
@@ -52,9 +56,18 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Label Text="" TextColor="Green" x:Name="lblBackgroundColorStatus" />
 
-        <Label x:Name="lblResetStatus" TextColor="Green" Text="" />
+        <Button Text="Återställ till standardinställningarna"
+                Clicked="OnResetSettings"
+                />
+
+        <Label x:Name="lblUpdateStatus"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+               Text="" 
+               TextColor="Green" 
+               Margin="16"
+                />
 
 
     </VerticalStackLayout>

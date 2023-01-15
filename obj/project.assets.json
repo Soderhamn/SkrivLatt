@@ -24573,11 +24573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcu\\Documents\\MIUN\\HT22\\DT071G - Programmering i C#\\Projekt\\SkrivLätt\\SkrivLätt.csproj",
+      "projectUniqueName": "C:\\Dev\\Projekt\\SkrivLatt\\SkrivLätt.csproj",
       "projectName": "SkrivLätt",
-      "projectPath": "C:\\Users\\marcu\\Documents\\MIUN\\HT22\\DT071G - Programmering i C#\\Projekt\\SkrivLätt\\SkrivLätt.csproj",
+      "projectPath": "C:\\Dev\\Projekt\\SkrivLatt\\SkrivLätt.csproj",
       "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcu\\Documents\\MIUN\\HT22\\DT071G - Programmering i C#\\Projekt\\SkrivLätt\\obj\\",
+      "outputPath": "C:\\Dev\\Projekt\\SkrivLatt\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

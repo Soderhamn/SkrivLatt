@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NSNrx1b54X5GQ+HWXm4WlzJccpxiqeeHSYZbDaOm/6ASxEw9aWX1X8JNN0+axDgrjcWsIYOGahe5ozX787Bk8Q==",
+  "dgSpecHash": "Mdgh+jm16xHBF7y+zrXxm9o91er1k9S1JvNMJz5u1QxoKLttAFPBb1uobt5OIcCtbIcvgrc6D4+ItjofLGJVSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcu\\Documents\\MIUN\\HT22\\DT071G - Programmering i C#\\Projekt\\SkrivLätt\\SkrivLätt.csproj",
+  "projectFilePath": "C:\\Dev\\Projekt\\SkrivLatt\\SkrivLätt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcu\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
