@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>8F1F86AB-5766-4F0B-86C3-B8802005AF57</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Dev\Projekt\SkrivLätt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Dev\Projekt\SkrivLatt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>214FB7325202793683D0C1E71E65D2B99298EC3E01AB0B8BC38114F608EC7078</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8F1F86AB-5766-4F0B-86C3-B8802005AF57_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8F1F86AB-5766-4F0B-86C3-B8802005AF57_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Dev\Projekt\SkrivLätt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Dev\Projekt\SkrivLatt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-15T12:11:49.451</Modified>
+      <Modified>2023-01-16T13:45:06.630</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-15T12:11:48.514</Modified>
+      <Modified>2023-01-16T13:45:04.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkrivLätt.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkrivLätt.runtimeconfig.json">
       <PackagePath>SkrivLätt.runtimeconfig.json</PackagePath>
-      <Modified>2023-01-15T11:39:29.558</Modified>
+      <Modified>2023-01-15T13:35:44.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkrivLätt.dll">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkrivLätt.dll">
       <PackagePath>SkrivLätt.dll</PackagePath>
-      <Modified>2023-01-15T12:11:45.143</Modified>
+      <Modified>2023-01-15T13:35:42.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SkrivLätt.exe</PackagePath>
-      <Modified>2023-01-15T12:11:45.314</Modified>
+      <Modified>2023-01-15T13:35:42.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1061,9 +1061,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SkrivLätt.deps.json">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SkrivLätt.deps.json">
       <PackagePath>SkrivLätt.deps.json</PackagePath>
-      <Modified>2023-01-15T12:11:49.124</Modified>
+      <Modified>2023-01-16T13:45:06.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1077,207 +1077,207 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-09-27T19:21:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.649</Modified>
+      <Modified>2023-01-15T13:35:41.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.665</Modified>
+      <Modified>2023-01-15T13:35:41.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.688</Modified>
+      <Modified>2023-01-15T13:35:41.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.721</Modified>
+      <Modified>2023-01-15T13:35:41.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.853</Modified>
+      <Modified>2023-01-15T13:35:41.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-Bold.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-Bold.otf">
       <PackagePath>LibraSans-Bold.otf</PackagePath>
       <Modified>2023-01-11T21:25:56.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-BoldItalic.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-BoldItalic.otf">
       <PackagePath>LibraSans-BoldItalic.otf</PackagePath>
       <Modified>2023-01-11T21:25:56.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-Italic.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans-Italic.otf">
       <PackagePath>LibraSans-Italic.otf</PackagePath>
       <Modified>2023-01-11T21:25:56.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSans.otf">
       <PackagePath>LibraSans.otf</PackagePath>
       <Modified>2023-01-11T21:25:56.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Bold.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Bold.otf">
       <PackagePath>LibraSerifModern-Bold.otf</PackagePath>
       <Modified>2023-01-11T21:26:07.089</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-BoldItalic.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-BoldItalic.otf">
       <PackagePath>LibraSerifModern-BoldItalic.otf</PackagePath>
       <Modified>2023-01-11T21:26:07.109</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Italic.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Italic.otf">
       <PackagePath>LibraSerifModern-Italic.otf</PackagePath>
       <Modified>2023-01-11T21:26:07.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Regular.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\LibraSerifModern-Regular.otf">
       <PackagePath>LibraSerifModern-Regular.otf</PackagePath>
       <Modified>2023-01-11T21:26:07.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Bold.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Bold.otf">
       <PackagePath>OpenDyslexic-Bold.otf</PackagePath>
       <Modified>2022-12-24T22:52:42.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-BoldItalic.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-BoldItalic.otf">
       <PackagePath>OpenDyslexic-BoldItalic.otf</PackagePath>
       <Modified>2022-12-24T22:52:42.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Italic.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Italic.otf">
       <PackagePath>OpenDyslexic-Italic.otf</PackagePath>
       <Modified>2022-12-24T22:52:42.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Regular.otf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenDyslexic-Regular.otf">
       <PackagePath>OpenDyslexic-Regular.otf</PackagePath>
       <Modified>2022-12-24T22:52:42.270</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2022-12-24T21:44:40.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2022-12-24T21:44:40.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-01-15T11:39:27.871</Modified>
+      <Modified>2023-01-15T13:35:41.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:28.006</Modified>
+      <Modified>2023-01-15T13:35:41.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:28.015</Modified>
+      <Modified>2023-01-15T13:35:41.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:28.025</Modified>
+      <Modified>2023-01-15T13:35:41.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:28.042</Modified>
+      <Modified>2023-01-15T13:35:41.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:28.109</Modified>
+      <Modified>2023-01-15T13:35:41.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.873</Modified>
+      <Modified>2023-01-15T13:35:41.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.875</Modified>
+      <Modified>2023-01-15T13:35:41.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.877</Modified>
+      <Modified>2023-01-15T13:35:41.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.879</Modified>
+      <Modified>2023-01-15T13:35:41.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.882</Modified>
+      <Modified>2023-01-15T13:35:41.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.911</Modified>
+      <Modified>2023-01-15T13:35:41.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.915</Modified>
+      <Modified>2023-01-15T13:35:41.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.919</Modified>
+      <Modified>2023-01-15T13:35:41.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.925</Modified>
+      <Modified>2023-01-15T13:35:41.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.941</Modified>
+      <Modified>2023-01-15T13:35:41.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.896</Modified>
+      <Modified>2023-01-15T13:35:41.355</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.898</Modified>
+      <Modified>2023-01-15T13:35:41.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.900</Modified>
+      <Modified>2023-01-15T13:35:41.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.903</Modified>
+      <Modified>2023-01-15T13:35:41.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.908</Modified>
+      <Modified>2023-01-15T13:35:41.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.884</Modified>
+      <Modified>2023-01-15T13:35:41.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.886</Modified>
+      <Modified>2023-01-15T13:35:41.339</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.888</Modified>
+      <Modified>2023-01-15T13:35:41.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.890</Modified>
+      <Modified>2023-01-15T13:35:41.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.894</Modified>
+      <Modified>2023-01-15T13:35:41.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.945</Modified>
+      <Modified>2023-01-15T13:35:41.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.950</Modified>
+      <Modified>2023-01-15T13:35:41.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.957</Modified>
+      <Modified>2023-01-15T13:35:41.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.967</Modified>
+      <Modified>2023-01-15T13:35:41.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-01-15T11:39:27.999</Modified>
+      <Modified>2023-01-15T13:35:41.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLätt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\skrivlattlogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Dev\Projekt\SkrivLatt\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\skrivlattlogo.scale-100.png">
       <PackagePath>skrivlattlogo.scale-100.png</PackagePath>
       <Modified>2023-01-15T09:47:16.609</Modified>
     </AppxPackagedFile>
